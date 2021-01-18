@@ -1,0 +1,16 @@
+<header>
+  <nav>
+    <h1 class="logo"> <a href="/">Let's talk about Weather</a></h1>
+    {{#if user}}
+      <ul class='menu'>
+        <li>Привет, {{user.name}}</li>
+        <li><a href="/user/logout">Выйти</a></li>
+      </ul>
+      {{else}}
+      <ul class="menu">
+          <li><a href="/user/login">Войти</a></li>
+          <li><a href="/user/registration">Зарегистрироваться</a></li>
+      </ul>
+    {{/if}}
+  </nav>
+</header>

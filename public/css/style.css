@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+  outline: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+input {
+  -webkit-appearance: none;
+}
+
+body {
+  font: 1rem/1.3 "Roboto", sans-serif;
+  color: #1e2432;
+  padding: 25px;
+  background-color: lightblue;
+}
+
+input {
+  text-align: center;
+  width: 200px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+button {
+  width: 210px;
+  height: 25px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #54baf5;
+  height: 100px;
+  border-radius: 15px;
+}
+
+h1{
+  font-family: 'Luckiest Guy', cursive;
+}
+
+li {
+  list-style-type: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+a {
+  color: black
+}
+
+#greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 200px;
+}
+
+#login {
+  margin-top: 200px;
+}
+
+#registration {
+  margin-top: 200px;
+}
+
+
+.top-banner {
+  color: #fff;
+}
+
+.top-banner form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.top-banner form input {
+  width: 300px;
+  font-size: 2rem;
+  height: 40px;
+  padding: 5px 5px 10px;
+  border-bottom: 1px solid;
+}
+
+.top-banner form input::placeholder {
+  color: currentColor; 
+}
+
+.top-banner form button {
+  width: 300px;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background: #ff1e42;
+  transition: background 0.3s ease-in-out;
+}
+
+.top-banner form button:hover {
+  background: #c3112d;
+}
+
+.top-banner form .msg {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  max-width: 450px;
+  min-height: 40px;
+}
+
+
+
+.ajax-section {
+  margin: 50px 0 20px;
+}
+ 
+.ajax-section .cities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ajax-section .city {
+  position: relative;
+  padding: 40px 10%;
+  border-radius: 20px;
+  background: #fff;
+  color: #53627c;
+}
+ 
+.ajax-section .city::after {
+  content: ’’;
+  width: 90%;
+  height: 50px;
+  position: absolute;
+  bottom: -12px;
+  left: 5%;
+  z-index: -1;
+  opacity: 0.3;
+  border-radius: 20px;
+  background: #fff;
+}
+ 
+.ajax-section figcaption {
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+ 
+.ajax-section .city-temp {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 50px;
+  color: #1e2432;
+}
+ 
+.ajax-section .city sup {
+  font-size: 0.5em;
+}
+ 
+.ajax-section .city-name sup {
+  padding: 0.2em 0.6em;
+  border-radius: 30px;
+  color: #fff;
+  background: #ff8c00;
+  margin-left: 5px;
+}
+
+.ajax-section .city-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.ajax-section .city-icon {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.chat-section {
+  position: relative;
+  padding: 40px 10%;
+  border-radius: 20px;
+  background: #fff;
+  color: #53627c;
+}
+
+.btn {
+  color: #fff;
+}
+
+.chatForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items
+}
+
+.chat-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-section form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.chat-section form input {
+  width: 700px;
+  font-size: 1.2rem;
+  height: 40px;
+  padding: 5px 5px 10px;
+  border-bottom: 1px solid;
+}
+
+.chat-section form input::placeholder {
+  color: currentColor; 
+}
+
+.chat-section form button {
+    width: 310px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: #ff1e42;
+    transition: background 0.3s ease-in-out;
+}
+
+.chat-section form button:hover {
+  background: #c3112d;
+}
+
+.chat-section form .msg {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  max-width: 450px;
+  min-height: 40px;
+}

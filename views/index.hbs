@@ -1,0 +1,64 @@
+{{#if user}}
+  <script defer src="/js/chat.js"></script>
+  <section class="top-banner">
+    <div class="container">
+
+      <div id="weather">
+        <form id="weather-form" class="form">
+          <input id="city-input" name="city" type="text" placeholder="Введите город">
+          <button id="city-button">Подтвердить</button>
+          <span class="msg"></span>
+        </form>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div id="test"></div>
+
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities">
+        <div class="city">
+          <h2 class="city-name" data-name="">
+            <span></span>
+            <sup></sup>
+          </h2>
+          <span class="city-temp"><sup>°C</sup></span>
+          <figure>
+            <img class="city-icon" src="" alt="Выбери город">
+            <figcaption></figcaption>
+          </figure>
+        </div>
+      </ul>
+    </div>
+    <div class='test'></div>
+  </section>
+
+
+<section class="chat-section">
+  <div  class="container">
+    <div class="chat-form-container">
+      <form class="chatForm">
+        <input id="message" type="text" placeholder="Введите сообщение" /> 
+        <button id="btn" class="btn"><i class="fas fa-paper-plane"></i>Отправить</button>
+      </form>
+   </div>
+  </div>
+  <div id="chat-messages">
+    
+  </div>
+</section>
+
+{{else}}
+
+<div id="greeting">
+
+  <h2 class="title">Добро пожаловать,</h2>
+  <h2 class="title">давайте поговорим о погоде</h2>
+  <h3 class="title">Чтобы продолжить, пройдите регистрацию</h3>
+
+</div>
+
+{{/if}}
