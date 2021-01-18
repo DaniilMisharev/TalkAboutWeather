@@ -21,12 +21,12 @@
 **Функция чата** используется для общения в реальном времени между пользователями, функция реализованна по протоколу WebSocket.
 
 ### Главная страница
-![Main page](/Users/danny/MyProjects/projectWebsockets/public/images/MainPage.png "Главная страница")
+
 ### Страница входа
-![Login page](/Users/danny/MyProjects/projectWebsockets/public/images/Login.png "Cтраница входа")
+
 ### Страница регистрации
-![Registration page](/Users/danny/MyProjects/projectWebsockets/public/images/Registartion.png "Cтраница регистрации")
+
 ### Страница поиска города и чата
-![API page](/Users/danny/MyProjects/projectWebsockets/public/images/ApiPage1.png "Cтраница поиска города и чата")
+
 ### Страница поиска города и чата (продолжение)
-![API page](/Users/danny/MyProjects/projectWebsockets/public/images/ApiPage2.png "Cтраница поиска города и чата")# TalkAboutWeather
+
