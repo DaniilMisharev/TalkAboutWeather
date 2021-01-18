@@ -21,12 +21,12 @@
 **Функция чата** используется для общения в реальном времени между пользователями, функция реализованна по протоколу WebSocket.
 
 ### Главная страница
-
+![MainPage](https://github.com/DaniilMisharev/TalkAboutWeather/blob/main/public/images/MainPage.png "Главная страница")
 ### Страница входа
-
+![LoginPage](https://github.com/DaniilMisharev/TalkAboutWeather/blob/main/public/images/Login.png "Страница входа")
 ### Страница регистрации
-
+![RegistrationPage](https://github.com/DaniilMisharev/TalkAboutWeather/blob/main/public/images/Registartion.png "Страница регистрации")
 ### Страница поиска города и чата
-
+![ApiPage](https://github.com/DaniilMisharev/TalkAboutWeather/blob/main/public/images/ApiPage1.png "Страница поиска города и чата")
 ### Страница поиска города и чата (продолжение)
-
+![ApiPage](https://github.com/DaniilMisharev/TalkAboutWeather/blob/main/public/images/ApiPage2.png "Страница поиска города и чата")
